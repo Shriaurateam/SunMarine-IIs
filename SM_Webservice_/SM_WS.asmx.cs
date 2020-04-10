@@ -79,6 +79,7 @@ namespace SM_Webservice_
         //    finally { }
         //}
 
+
         [WebMethod]
         [ScriptMethod(UseHttpGet = true)]
         public string GetRole()
@@ -350,7 +351,7 @@ namespace SM_Webservice_
                         //   // ms.Write(bytes, 0, bytes.Length);
                         //    image = Image.FromStream(ms,true);
 
-                        //}
+            //            //}
                         image = Image.FromStream(ms, true);
                         image.Save(Svrpath + filename, System.Drawing.Imaging.ImageFormat.Png);
 
