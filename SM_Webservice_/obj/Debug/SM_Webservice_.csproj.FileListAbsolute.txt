@@ -1,0 +1,10 @@
+E:\viki\Project\Live\Sun marine\SM_Webservice_\SM_Webservice_\bin\SM_Webservice_.dll.config
+E:\viki\Project\Live\Sun marine\SM_Webservice_\SM_Webservice_\bin\SM_Webservice_.dll
+E:\viki\Project\Live\Sun marine\SM_Webservice_\SM_Webservice_\bin\SM_Webservice_.pdb
+E:\viki\Project\Live\Sun marine\SM_Webservice_\SM_Webservice_\obj\Debug\SM_Webservice_.csprojResolveAssemblyReference.cache
+E:\viki\Project\Live\Sun marine\SM_Webservice_\SM_Webservice_\obj\Debug\SM_Webservice_.dll
+E:\viki\Project\Live\Sun marine\SM_Webservice_\SM_Webservice_\obj\Debug\SM_Webservice_.pdb
+D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-19]\SM_Webservice_\SM_Webservice_\obj\Debug\SM_Webservice_.csprojAssemblyReference.cache
+D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-19]\SM_Webservice_\SM_Webservice_\obj\Debug\SM_Webservice_.csproj.CoreCompileInputs.cache
+D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-19]\SM_Webservice_\SM_Webservice_\obj\Debug\SM_Webservice_.dll
+D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-19]\SM_Webservice_\SM_Webservice_\obj\Debug\SM_Webservice_.pdb

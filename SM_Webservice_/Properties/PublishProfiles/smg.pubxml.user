@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\viki\Project\Live\Sun marine\SMG_WS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/19/2020 23:17:38</publishTime>
+    </File>
+    <File Include="bin/SM_Webservice_.dll">
+      <publishTime>04/08/2020 13:19:16</publishTime>
+    </File>
+    <File Include="bin/SM_Webservice_.pdb">
+      <publishTime>04/08/2020 13:19:16</publishTime>
+    </File>
+    <File Include="SM_WS.asmx">
+      <publishTime>03/19/2020 23:17:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/23/2020 12:54:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
