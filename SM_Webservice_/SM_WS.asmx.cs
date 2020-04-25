@@ -500,16 +500,16 @@ namespace SM_Webservice_
 
 
 
-                SQL_PARAM = new SqlParameter[2];
-                SQL_PARAM[0] = new SqlParameter("@SP_TYPE", "GET_SMS_VEND");
-                SQL_PARAM[1] = new SqlParameter("@PUR_ID", Trans_id);
+                //SQL_PARAM = new SqlParameter[2];
+                //SQL_PARAM[0] = new SqlParameter("@SP_TYPE", "GET_SMS_VEND");
+                //SQL_PARAM[1] = new SqlParameter("@PUR_ID", Trans_id);
 
-                cmndt = SQLReturnDT("SM_SP", CommandType.StoredProcedure, SQL_PARAM);
+                //cmndt = SQLReturnDT("SM_SP", CommandType.StoredProcedure, SQL_PARAM);
 
-                if (cmndt.Rows.Count > 0 && cmndt.Rows[0]["CODE"].ToString() == "01")
-                {
-                    Forgot_SMS(cmndt.Rows[0]["NUM"].ToString(), cmndt.Rows[0]["MSG"].ToString());
-                }
+                //if (cmndt.Rows.Count > 0 && cmndt.Rows[0]["CODE"].ToString() == "01")
+                //{
+                //    Forgot_SMS(cmndt.Rows[0]["NUM"].ToString(), cmndt.Rows[0]["MSG"].ToString());
+                //}
 
                 return dt = SQLReturnJson("SM_SP", CommandType.StoredProcedure, Param);
             }
@@ -531,16 +531,7 @@ namespace SM_Webservice_
                 Param[2] = new SqlParameter("@ACK_ID", Ack_id);
 
 
-                SQL_PARAM = new SqlParameter[2];
-                SQL_PARAM[0]= new SqlParameter("@SP_TYPE", "GET_SMS_VEND");
-                SQL_PARAM[1] = new SqlParameter("@PUR_ID", Trans_id);
-
-                cmndt = SQLReturnDT("SM_SP", CommandType.StoredProcedure, SQL_PARAM);
-
-                if (cmndt.Rows.Count > 0 && cmndt.Rows[0]["CODE"].ToString()=="01")
-                {
-                    Forgot_SMS(cmndt.Rows[0]["NUM"].ToString(), cmndt.Rows[0]["MSG"].ToString());
-                }
+              
 
 
                 return dt = SQLReturnJson("SM_SP", CommandType.StoredProcedure, Param);
@@ -780,6 +771,18 @@ namespace SM_Webservice_
                 Param[4] = new SqlParameter("@QTY", Supplyqty);
                 Param[5] = new SqlParameter("@ASSGN_TO", Reassignto);
                 Param[6] = new SqlParameter("@ACK_ID", Ack_id);
+
+                SQL_PARAM = new SqlParameter[2];
+                SQL_PARAM[0] = new SqlParameter("@SP_TYPE", "GET_SMS_VEND");
+                SQL_PARAM[1] = new SqlParameter("@PUR_ID", Transid);
+
+                cmndt = SQLReturnDT("SM_SP", CommandType.StoredProcedure, SQL_PARAM);
+
+                if (cmndt.Rows.Count > 0 && cmndt.Rows[0]["CODE"].ToString() == "01")
+                {
+                    Forgot_SMS(cmndt.Rows[0]["NUM"].ToString(), cmndt.Rows[0]["MSG"].ToString());
+                }
+
 
 
                 return dt = SQLReturnJson("SM_SP", CommandType.StoredProcedure, Param);
