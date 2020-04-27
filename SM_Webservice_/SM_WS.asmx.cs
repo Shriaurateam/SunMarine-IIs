@@ -1324,6 +1324,36 @@ namespace SM_Webservice_
         }
 
 
+        /// <summary>
+        /// BH FINAL Settle
+        /// </summary>
+        [WebMethod]
+        [ScriptMethod(UseHttpGet =true)]
+
+        public string Final_Settle(string Trans_id,string Booking_id, string Username, decimal sm_refer_fee, decimal Cashsales, decimal BankDeposit)
+        {
+            try
+            {
+                Param = new SqlParameter[7];
+                Param[0] = new SqlParameter("@SP_TYPE", "FINAL_BH_SETTLE");
+                Param[1] = new SqlParameter("@ACK_ID", Booking_id);
+                Param[2] = new SqlParameter("@PUR_ID", Trans_id);
+                Param[3] = new SqlParameter("@sm_refer_fee", sm_refer_fee);
+                Param[4] = new SqlParameter("@CashSales", Cashsales);
+                Param[5] = new SqlParameter("@BankDeposit", BankDeposit);
+                Param[6] = new SqlParameter("@UNAME", Username);
+
+                return dt = SQLReturnJson("SM_SP", CommandType.StoredProcedure, Param);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return "[{\"CODE\":\"02\",\"MSG\":\"EXCEP\",\"DESC\":\"" + ex.ToString() + "\"}]";
+            }
+            finally { }
+
+        }
 
         //[ScriptMethod(UseHttpGet = true)]
         //public string GetSecurityCodeValid(string Code)

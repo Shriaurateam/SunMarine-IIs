@@ -20,3 +20,11 @@ D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-1
 D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-19]\SM_Webservice_\SM_Webservice_\obj\Release\SM_Webservice_.csproj.CopyComplete
 D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-19]\SM_Webservice_\SM_Webservice_\obj\Release\SM_Webservice_.dll
 D:\SHRIAURA\SMT project - [20-03-19]-20200321T080320Z-001\SMT project - [20-03-19]\SM_Webservice_\SM_Webservice_\obj\Release\SM_Webservice_.pdb
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\bin\SM_Webservice_.dll.config
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\bin\SM_Webservice_.dll
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\bin\SM_Webservice_.pdb
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\obj\Release\SM_Webservice_.csprojAssemblyReference.cache
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\obj\Release\SM_Webservice_.csproj.CoreCompileInputs.cache
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\obj\Release\SM_Webservice_.csproj.CopyComplete
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\obj\Release\SM_Webservice_.dll
+D:\SHRIAURA\git\SunMarine-IIs\SM_Webservice_\obj\Release\SM_Webservice_.pdb
