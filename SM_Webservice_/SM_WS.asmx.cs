@@ -806,7 +806,9 @@ namespace SM_Webservice_
             try
             {
                 string filename;
-                string Svrpath = HttpContext.Current.Server.MapPath("./IMG/");
+                //string Svrpath = HttpContext.Current.Server.MapPath("./IMG/");
+                string Svrpath = "C:/Inetpub/vhosts/sunmarineteam.in/httpdocs/SMG/IMG/";
+                sp = Svrpath;
 
 
                 filename = trans_id + "pm.png";
